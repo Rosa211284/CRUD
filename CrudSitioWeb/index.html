@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+       
+        <title>Creaciond de amueltos</title>
+    </head>
+    <body>
+        <!--------------------barra inicio----------------------------------------->
+         <div class="barra">
+        <img src="/img/logo.png" alt="logo hollow">
+        </div><br><br>
+        <img src="/img/salubra.png" width="100%" height="90%">
+
+        <!--------------------Barra crear amueltos----------------------------------------->
+         <div class="barra_sola"><h1>Creacion de Amuletos</h1></div> 
+        <!--------------------Explicacion amueltos----------------------------------------->
+      
+
+         <!-- ---------------------- Item Plantilla ------------------------ -->
+   <div id="contenido-centrado">
+            <div id="ColeccionItems">
+                <!-- ---------------------- Item Plantilla ------------------------ -->
+                <div class="ContenedorItem">
+                   
+                    <div class="Imagen"></div>
+                    <div class="Titulo">
+                        Titulo del Item
+                    </div>
+                    <div class="Descripcion">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus condimentum sapien, quis euismod turpis dignissim porttitor. Morbi porta at sem nec ornare. Nulla sed dui mauris. Duis ex ipsum, vehicula ac tempor et, pulvinar ac tellus. Suspendisse accumsan mollis massa. Vivamus interdum lorem et nisl viverra, sit amet aliquet sem pulvinar.
+                    </div>
+                    <img class="Icono_Borrar" src="img/icono_borrar.svg"/>
+                    <img class="Icono_Editar" src="img/icono_editar.svg"/>
+ 
+                    <div class="PanelCreacionItem">
+                        <div class="CrearItem_titulo">
+                            Ingrese el Titulo:
+                        </div>
+                        <input class="CrearItem_InputTitulo" type="text" placeholder="Mi Titulo" />
+                        <div class="CrearItem_instruccionImagen">
+                            Imagen:
+                        </div>
+                        <img class="ImagenPreview" />
+                        <input type="file" class="input_imagen"/>
+                        <div class="CrearItem_titulo">
+                            Ingrese una descripción:
+                        </div>
+                        <textarea rows="4" cols="50"></textarea>
+                        <button class="boton_cancelar" type="button">Cancelar</button>
+                        <button class="boton_guardar" type="button">Guardar</button>
+                    </div>
+                </div>
+ 
+                <!-- ---------------------- Item Plantilla ------------------------ -->
+                <div class="PantallaAgregarItem" onclick="CrearTarjeta()">
+                    <img class="icono_agregar" src="img/icono_agregar.svg"/>
+                </div>
+               
+            </div>
+        </div>
+ 
+    </body>
+    
+    <script src="js/conectar_medievalapi.js"></script>
+    <script src="js/descripciones_hover.js"></script>
+    <script src="js/conectarApi.js"></script>
+</html>
