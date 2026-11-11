@@ -58,7 +58,7 @@ header div{
 #contenido-centrado{
     float: left;
     width: 100%;
-    background-image: url("/img/fondoA.png");
+    background-image: url("../img/fondoA.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -347,4 +347,13 @@ button:hover{
     width: 100%;
     height: 100%;  
     border-radius: 5px;
+}
+
+/*-------------imagen cambio amuletos----------------------*/
+#salubra1{
+    float: left;
+    width: 50%;
+    height: 50vh;
+    background-image: url("../img/fondoA.png");
+    background-size: cover;
 }
