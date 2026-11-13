@@ -2,7 +2,7 @@ const http = require("node:http");
 const puerto = 3000;
 const fs = require("node:fs");
 
-
+const objeto_amuletos = JSON.parse(fs.readFileSync("./amuletos.json"));
 const archivo = JSON.parse(fs.readFileSync("archivo.json"));
 
 
@@ -14,9 +14,19 @@ const server = http.createServer((request, response) =>{
     switch(request.method){
 /*-----------------------GET-------------------------------------------------*/
      case "GET":
+    if(request.url == "/informacion_tarjetas"){
     response.statusCode = 200;
     response.setHeader("Content-Type", "application/json; charset= utf-8");
-    response.end(JSON.stringify(archivo));
+    response.end(JSON.stringify(archivo));}
+
+    
+    else{
+        response.statusCode = 200;
+        response.setHeader("Content-Type", "application/json, charset = utf-8");
+        
+        response.end(JSON.stringify(objeto_amuletos));
+    }
+
     break;
 /*-----------------------POST-------------------------------------------------*/
     case "POST":
@@ -27,7 +37,7 @@ const server = http.createServer((request, response) =>{
         });
         request.on("end", () =>{
             const objeto_nuevoItem = JSON.parse(informacion);
-            console.log(objeto_nuevoItem);
+            
             const objeto_nuevaTarjeta = {
                 id: archivo.arreglo[archivo.arreglo.length -1].id + 1,
                 titulo: objeto_nuevoItem.titulo,
@@ -47,7 +57,7 @@ const server = http.createServer((request, response) =>{
 
                 } else{
                     const objeto_respuesta = {
-                        mensaje: "Amuleto Guardad0 7w7"
+                        mensaje: "Amuleto Guardado 7w7"
 
                     }
                     response.statusCode = 200;
