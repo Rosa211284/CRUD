@@ -24,6 +24,14 @@ const server = http.createServer((request, response) =>{
         response.statusCode = 200;
         response.setHeader("Content-Type", "application/json, charset = utf-8");
         
+        for(i =0; i< objeto_amuletos.arreglo.length; i++){
+           // console.log(objeto_amuletos.arreglo[i].imagen);
+            const imagen = "data:;base64," + fs.readFileSync("./Imagenes/" + objeto_amuletos.arreglo[i].imagen).toString("base64");
+            
+            objeto_amuletos.arreglo[i].imagen2 = imagen;
+        }
+
+       
         response.end(JSON.stringify(objeto_amuletos));
     }
 
