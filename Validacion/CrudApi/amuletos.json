@@ -2,16 +2,272 @@
     "arreglo": [
         {
             "id": 1,
-            "titulo": "amuleto1",
-            "descripcion": "jbnf,jsbdfjsbdnfsmnbfmsndbf",
+            "titulo": "Brújula Caprichosa",
+            "descripcion": "Susurra su ubicación al portador siempre que se abra el mapa.",
             "imagen": "1.png"
            
         },
         {
            "id": 2,
-            "titulo": "creacion de arte",
-            "descripcion": "si funciono xd",
+            "titulo": "Enjambre Recolector",
+            "descripcion": "Un enjambre que seguirá al portador y reunirá todos los geo sueltos.",
            "imagen":"2.png"
+        },
+
+         {
+           "id": 3,
+            "titulo": "Coraza robusta",
+            "descripcion": "Al recuperarse del daño recibido, el portador será invulnerable durante más tiempo.",
+           "imagen":"3.png"
+        },
+
+         {
+           "id": 4,
+            "titulo": "Atrapaalmas",
+            "descripcion": "Aumenta la cantidad de ALMA obtenida al golpear a un enemigo con el aguijón.",
+           "imagen":"4.png"
+        },
+
+         {
+           "id": 5,
+            "titulo": "Piedra de chamán",
+            "descripcion": "Aumenta el poder de los hechizos para hacer más daño a los enemigos.",
+           "imagen":"5.png"
+        },
+
+         {
+           "id": 6,
+            "titulo": "Devoraalmas",
+            "descripcion": "Aumenta mucho la cantidad de ALMA obtenida al golpear a un enemigo con el aguijón.",
+           "imagen":"6.png"
+        },
+         {
+           "id": 7,
+            "titulo": "Maestro de las embestidas",
+            "descripcion": "El portador podrá realizar el Avance Rápido con más frecuencia, así como realizar el Avance Rápido hacia abajo.",
+           "imagen":"7.png"
+        },
+         {
+           "id": 8,
+            "titulo": "Maestro de Sprints",
+            "descripcion": "Aumenta la velocidad al correr del portador, permitiéndole esquivar el daño o adelantar al rival.",
+           "imagen":"8.png"
+        },
+         {
+           "id": 9,
+            "titulo": "Canción de larvas",
+            "descripcion": "Consigue ALMA al recibir daño.",
+           "imagen":"9.png"
+        },
+         {
+           "id": 10,
+            "titulo": "Elegía de la Larvamosca",
+            "descripcion": "Infunde a las armas una fuerza sagrada. Cuando el portador tenga toda la salud, lanzará rayos de energía blanca y caliente desde su aguijón.",
+           "imagen":"10.png"
+        },
+         {
+           "id": 11,
+            "titulo": "Corazón frágil",
+            "descripcion": "Aumenta la salud del portador, con lo que puede recibir más daño. Este amuleto es frágil y se romperá si su portador muere.",
+           "imagen":"11.png"
+        },
+         {
+           "id": 12,
+            "titulo": "Corazón irrompible",
+            "descripcion": "Aumenta la vida del portador, permitiendole recibir más daño. Este amuleto es irrompible.",
+           "imagen":"12.png"
+        },
+        {
+           "id": 13,
+            "titulo": "Codicia Frágil",
+            "descripcion": "Hace que el portador encuentre más geo al derrotar enemigos. Este amuleto es frágil y se romperá si su portador muere.",
+           "imagen":"13.png"
+        },
+        {
+           "id": 14,
+            "titulo": "Codicia irrompible",
+            "descripcion": "Permite al portador encontrar mas Geo al derrotar enemigos.",
+           "imagen":"14.png"
+        },
+        {
+           "id": 15,
+            "titulo": "Fuerza frágil",
+            "descripcion": "Fortalece al portador, lo que aumenta el daño que este inflige a los enemigos con su aguijón. Este amuleto es frágil y se romperá si su portador muere.",
+           "imagen":"15.png"
+        },
+        {
+           "id": 16,
+            "titulo": "Fuerza irrompible ",
+            "descripcion": "Endurece al portador, aumentando el daño que causa a los enemigos con su aguijón. Este amuleto es irrompible.",
+           "imagen":"16.png"
+        },
+        {
+           "id": 17,
+            "titulo": "Tuercehechizos",
+            "descripcion": "Reduce el coste de ALMA al lanzar hechizos.",
+           "imagen":"17.png"
+        },
+        {
+           "id": 18,
+            "titulo": "Cuerpo firme",
+            "descripcion": "Evita que su portador rebote hacia atrás al golpear a un enemigo con su aguijón.",
+           "imagen":"18.png"
+        },
+         {
+           "id": 19,
+            "titulo": "Duro golpe",
+            "descripcion": "Aumenta la fuerza del aguijón del portador, lo que hace que los enemigos retrocedan más al recibir un golpe.",
+           "imagen":"19.png"
+        },
+         {
+           "id": 20,
+            "titulo": "Corte rápido",
+            "descripcion": "Permite al portador lanzar cortes mucho más rápido con su aguijón.",
+           "imagen":"20.png"
+        },
+         {
+           "id": 21,
+            "titulo": "Largoaguijón",
+            "descripcion": "Aumenta el alcance del aguijón del portador.",
+           "imagen":"21.png"
+        },
+         {
+           "id": 22,
+            "titulo": "Marca de orgullo",
+            "descripcion": "Aumenta mucho el alcance del aguijón del portador.",
+           "imagen":"22.png"
+        },
+         {
+           "id": 23,
+            "titulo": "Furia de los caídos",
+            "descripcion": "La fuerza del portador aumentará cuando se encuentre cercano a la muerte.",
+           "imagen":"23.png"
+        },
+         {
+           "id": 24,
+            "titulo": "Espinas de agonía",
+            "descripcion": "Al recibir daño, hace brotar vides espinosos que dañan a los enemigos cercanos.",
+           "imagen":"24.png"
+        },
+         {
+           "id": 25,
+            "titulo": "Coraza de baldur",
+            "descripcion": "Protege a su portador con una dura coraza mientras concentra el ALMA.r.",
+           "imagen":"25.png"
+        },
+         {
+           "id": 26,
+            "titulo": "Tremanido",
+            "descripcion": "Transforma el hechizo Espíritu vengativo en una horda de volátiles bebés trematodos.",
+           "imagen":"26.png"
+        },
+         {
+           "id": 27,
+            "titulo": "Blasón del defensor",
+            "descripcion": "Hace que el portador emita un olor heroico.",
+           "imagen":"27.png"
+        },
+          {
+           "id": 28,
+            "titulo": "Útero brillante",
+            "descripcion": "Drena el ALMA de su portador y la usa para dar a luz a varias crías.",
+           "imagen":"28.png"
+        },
+          {
+           "id": 29,
+            "titulo": "Concentración rápida",
+            "descripcion": "Aumenta la velocidad de la concentración de ALMA, con lo que el portador puede curarse de los daños antes.",
+           "imagen":"29.png"
+        },
+          {
+           "id": 30,
+            "titulo": "Concentración profunda",
+            "descripcion": "El portador tardará más en concentrar ALMA, pero su efecto de curación se duplicará.",
+           "imagen":"30.png"
+        },
+          {
+           "id": 31,
+            "titulo": "Corazón de saviavida",
+            "descripcion": "Al descansar, el portador obtendrá un revestimiento de saviavida que le protege de una pequeña cantidad de daño.",
+           "imagen":"31.png"
+        },
+          {
+           "id": 32,
+            "titulo": "Núcleo de saviavida",
+            "descripcion": "Al descansar, el portador obtendrá un revestimiento de saviavida que le protege de una gran cantidad de daño.",
+           "imagen":"32.png"
+        },
+         {
+           "id": 33,
+            "titulo": "Bendición de Joni",
+            "descripcion": "Cura las heridas del portador con el paso del tiempo, lo que permite recuperar salud sin concentrar ALMA.",
+           "imagen":"33.png"
+        },
+         {
+           "id": 34,
+            "titulo": "Sangrecolmena",
+            "descripcion": "Al descansar, el portador obtendrá un revestimiento de saviavida que le protege de una gran cantidad de daño.",
+           "imagen":"34.png"
+        },
+         {
+           "id": 35,
+            "titulo": "Hongo con esporas",
+            "descripcion": "Al concentrar ALMA, emite una nube de esporas que daña lentamente a los enemigos.",
+           "imagen":"35.png"
+        },
+         {
+           "id": 36,
+            "titulo": "Sombra afilada",
+            "descripcion": "Al usar el avance rápido sombrío, el cuerpo del portador se volverá afilado y dañará a los enemigos.",
+           "imagen":"36.png"
+        },
+        {
+           "id": 37,
+            "titulo": "Forma de Unn",
+            "descripcion": "Al concentrar ALMA, el portador adoptará una nueva forma y podrá moverse libremente para evitar a los enemigos.",
+           "imagen":"37.png"
+        },
+        {
+           "id": 38,
+            "titulo": "Gloria del Maestro de aguijones",
+            "descripcion": "Aumenta el dominio de las Artes del aguijón del portador, lo que le permite concentrar su poder más rápido y desatar las artes antes.",
+           "imagen":"38.png"
+        },
+        {
+           "id": 39,
+            "titulo": "Canción de Tejedora",
+            "descripcion": "Invoca pequeñas tejedoras para acompañar y proteger al solitario portador.",
+           "imagen":"39.png"
+        },
+         {
+           "id": 40,
+            "titulo": "Portador onírico",
+            "descripcion": "Permite al portador cargar el Aguijón Onírico más rápido y reunir más ALMA al golpear enemigos.",
+           "imagen":"40.png"
+        },
+         {
+           "id": 41,
+            "titulo": "Escudo Onírico",
+            "descripcion": "Conjura un escudo que sigue al portador e intenta protegerle.",
+           "imagen":"41.png"
+        },
+         {
+           "id": 42,
+            "titulo": "Niño de Grimm",
+            "descripcion": "Llevado por aquellos que forman parte del Ritual de la compañía de grimm. El portador debe buscar los grimarios y recolectar sus llamas. Las llamas que no se han recogido aparecerán en el mapa del portador.",
+           "imagen":"42.png"
+        },
+         {
+           "id": 43,
+            "titulo": "Alma del Monarca",
+            "descripcion": "Amuleto sagrado que simboliza la unión entre seres superiores. El portador absorberá lentamente el ALMA interminable que contiene. Abre el camino al lugar de nacimiento.",
+           "imagen":"4.png"
+        },
+        {
+           "id": 44,
+            "titulo": "Corazón del Vacío",
+            "descripcion": "Unifica el vacío bajo y la voluntad del portador. Este amuleto forma parte de su portador y no se puede eliminar del equipo.",
+           "imagen":"44.png"
         }
     ]
 }
