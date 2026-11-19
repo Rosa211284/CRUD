@@ -3,6 +3,7 @@ const puerto = 3000;
 const fs = require("node:fs");
 
 const objeto_amuletos = JSON.parse(fs.readFileSync("./amuletos.json"));
+const objeto_enemigos_Sendero = JSON.parse(fs.readFileSync("./enemigosS.json"));
 const archivo = JSON.parse(fs.readFileSync("archivo.json"));
 
 
@@ -14,13 +15,55 @@ const server = http.createServer((request, response) =>{
     switch(request.method){
 /*-----------------------GET-------------------------------------------------*/
      case "GET":
-    if(request.url == "/informacion_tarjetas"){
+
+    switch(request.url){
+        case "/informacion_tarjetas":
+            response.statusCode = 200;
+            response.setHeader("Content-Type", "application/json; charset= utf-8");
+            response.end(JSON.stringify(archivo));
+            break;
+/*--------------------------ENEMIGOS INFORMACION---------------------------------------------------*/
+        case "/enemigo_Sendero":
+             console.log("entro");
+            response.statusCode = 200;
+            response.setHeader("Content-Type", "application/json; charset = utf-8");
+            for(i =0; i< objeto_enemigos_Sendero.arreglo.length; i++){
+                const imagen = "data:;base64," + fs.readFileSync("./Imagenes/" + objeto_enemigos_Sendero.arreglo[i].imagen).toString("base64");
+                objeto_enemigos_Sendero.arreglo[i].imagen2 = imagen;
+            }
+            response.end(JSON.stringify(objeto_enemigos_Sendero));
+            break;
+/*-------------------------------AMULETOS-------------------------------------------------------------------*/
+            case "/amuletos":
+            response.statusCode = 200;
+            response.setHeader("Content-Type", "application/json; charset = utf-8");
+            
+            for(i =0; i< objeto_amuletos.arreglo.length; i++){
+            // console.log(objeto_amuletos.arreglo[i].imagen);
+                const imagen = "data:;base64," + fs.readFileSync("./Imagenes/" + objeto_amuletos.arreglo[i].imagen).toString("base64");
+                objeto_amuletos.arreglo[i].imagen2 = imagen;
+            }
+            response.end(JSON.stringify(objeto_amuletos));
+            break;
+    
+    
+    /*if(request.url == "/informacion_tarjetas"){
     response.statusCode = 200;
     response.setHeader("Content-Type", "application/json; charset= utf-8");
-    response.end(JSON.stringify(archivo));}
-
+    response.end(JSON.stringify(archivo));}*/
+/*
+    if(request.url == "/enemigo_Sendero"){
+        console.log("si entro");
+        response.statusCode = 200;
+        response.setHeader("Content-Type", "application/json, charset = utf-8");
+        for(i =0; i< objeto_enemigos_Sendero.arreglo.length; i++){
+            const imagen = "data:;base64," + fs.readFileSync("./Imagenes/" + objeto_enemigos_Sendero.arreglo[i].imagen).toString("base64");
+            objeto_enemigos_Sendero.arreglo[i].imagen2 = imagen;
+        }
+        response.end(JSON.stringify(objeto_enemigos_Sendero));
+    }*/
     
-    else{
+    /*else{
         response.statusCode = 200;
         response.setHeader("Content-Type", "application/json, charset = utf-8");
         
@@ -30,12 +73,13 @@ const server = http.createServer((request, response) =>{
             
             objeto_amuletos.arreglo[i].imagen2 = imagen;
         }
-
-       
         response.end(JSON.stringify(objeto_amuletos));
-    }
 
+    }*/
+}
     break;
+
+
 /*-----------------------POST-------------------------------------------------*/
     case "POST":
         var informacion = "";

@@ -1,0 +1,19 @@
+{
+    "arreglo": [
+        {
+            "id": 1,
+            "titulo": "Enemigo 1",
+            "descripcion": "lfnsd,mfbsd.",
+            "imagen": "1.png",
+            "imagen2": "1.png"
+           
+        },
+        {
+           "id": 2,
+            "titulo": "enemigo 2",
+            "descripcion": "dbfsmndbfsnbfm",
+           "imagen":"2.png",
+            "imagen2": "1.png"
+        }
+    ]
+}
