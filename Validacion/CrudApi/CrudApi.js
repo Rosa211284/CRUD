@@ -13,6 +13,7 @@ const server = http.createServer((request, response) =>{
 /*-----------------------switch-------------------------------------------------*/
 
     switch(request.method){
+    
 /*-----------------------GET-------------------------------------------------*/
      case "GET":
 
@@ -24,7 +25,7 @@ const server = http.createServer((request, response) =>{
             break;
 /*--------------------------ENEMIGOS INFORMACION---------------------------------------------------*/
         case "/enemigo_Sendero":
-             console.log("entro");
+            console.log("entro");
             response.statusCode = 200;
             response.setHeader("Content-Type", "application/json; charset = utf-8");
             for(i =0; i< objeto_enemigos_Sendero.arreglo.length; i++){
@@ -38,10 +39,10 @@ const server = http.createServer((request, response) =>{
             response.statusCode = 200;
             response.setHeader("Content-Type", "application/json; charset = utf-8");
             
-            for(i =0; i< objeto_amuletos.arreglo.length; i++){
+            for(j =0; j< objeto_amuletos.arreglo.length; j++){
             // console.log(objeto_amuletos.arreglo[i].imagen);
-                const imagen = "data:;base64," + fs.readFileSync("./Imagenes/" + objeto_amuletos.arreglo[i].imagen).toString("base64");
-                objeto_amuletos.arreglo[i].imagen2 = imagen;
+                const imagen = "data:;base64," + fs.readFileSync("./Imagenes/" + objeto_amuletos.arreglo[j].imagen).toString("base64");
+                objeto_amuletos.arreglo[j].imagen2 = imagen;
             }
             response.end(JSON.stringify(objeto_amuletos));
             break;
@@ -77,6 +78,7 @@ const server = http.createServer((request, response) =>{
 
     }*/
 }
+
     break;
 
 

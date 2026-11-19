@@ -1,19 +1,97 @@
 {
     "arreglo": [
-        {
-            "id": 1,
-            "titulo": "Enemigo 1",
-            "descripcion": "lfnsd,mfbsd.",
-            "imagen": "1.png",
-            "imagen2": "1.png"
-           
-        },
-        {
-           "id": 2,
-            "titulo": "enemigo 2",
-            "descripcion": "dbfsmndbfsnbfm",
-           "imagen":"2.png",
-            "imagen2": "1.png"
-        }
+    {
+    "id": 1,
+    "titulo": "Trepamusgo",
+    "descripcion": "Debilucho que se cubre con hojas para parecer más grande. Se oculta entre los matorrales.",
+    "imagen": "s1.png"
+   
+  },
+  {
+    "id": 2,
+    "titulo": "Engulletontos",
+    "descripcion": "Planta carnívora que ataca a cualquier criatura que se le acerque.",
+    "imagen": "s2.png"
+    
+  },
+  {
+    "id": 3,
+    "titulo": "Musgoagresor gigante",
+    "descripcion": "Una familia de criaturas que ha aprendido a fusionarse con musgo y forman un solo ser.",
+    "imagen": "s3.png"
+    
+  },
+  {
+    "id": 4,
+    "titulo": "Musgocaballero",
+    "descripcion": "Protector de Sendero Verde, adiestrado en las artes del aguijón y la coraza.",
+    "imagen": "s4.png"
+    
+  },
+  {
+    "id": 5,
+    "titulo": "Obble",
+    "descripcion": "Insecto gordo, lento y volador. Suele soltar un líquido ácido que guarda en su cuerpo rechoncho.",
+    "imagen": "s5.png"
+    
+  },
+  
+  {
+    "id": 7,
+    "titulo": "Gulka",
+    "descripcion": "Un agresivo ser vegetal que se retrae de forma proactiva cuando siente peligro cerca. Escupe bolas duras y espinosas cuando sus enemigos se encuentran a distancia.",
+    "imagen": "s7.png"
+  },
+  {
+    "id": 8,
+    "titulo": "Musgoagresor",
+    "descripcion": "Tímida criatura que asusta a los intrusos cubriéndose con enormes trozos de musgo.",
+    "imagen": "s8.png"
+  },
+  {
+    "id": 9,
+    "titulo": "Musgoso volátil",
+    "descripcion": "Insecto con forma de planta inflamado por la infección. Cuando siente una amenaza libera gas.",
+    "imagen": "s9.png"
+  },
+  {
+    "id": 10,
+    "titulo": "Musgoso",
+    "descripcion": "Insecto con forma de planta que carga cuando un enemigo se acerca.",
+    "imagen": "s10.png"
+  },
+  {
+    "id": 11,
+    "titulo": "Mosquito",
+    "descripcion": "Se lanza contra su presa con su trompa en forma de aguja.",
+    "imagen": "s11.png"
+  }
+  ,
+  {
+    "id": 12,
+    "titulo": "Vagabundo Musgoso",
+    "descripcion": "Vago y corpulento musgoso. Se deja influir con facilidad por los demas.",
+    "imagen": "s12.png"
+  }
+  ,
+  {
+    "id": 13,
+    "titulo": "Duranda",
+    "descripcion": "Simple creatura voladora protegida por una coraza espinosa",
+    "imagen": "s13.png"
+  },
+  {
+    "id": 14,
+    "titulo": "Durandoo",
+    "descripcion": "Simple creatura andante metida en una coraza dura. Se suele encontrar vadeando en estanques pocos profundos de agua acida",
+    "imagen": "s14.png"
+  }
+  ,
+  {
+    "id": 15,
+    "titulo": "Aluba",
+    "descripcion": "Un ser tranquilo que prefiere planear cerca de aguas corrosivas",
+    "imagen": "s15.png"
+  }
     ]
 }
